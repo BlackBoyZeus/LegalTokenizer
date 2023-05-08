@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Legal Tokenizer</title>
+</head>
+<body>
+    <h1>Legal Tokenizer</h1>
+    <p>Input text:</p>
+    <p>{{ text }}</p>
+    <p>Tokenized output:</p>
+    <ul>
+        {% for token in tokens %}
+        <li>{{ token[0] }} <strong>{{ token[1] }}</strong></li>
+        {% endfor %}
+    </ul>
+    <a href="/">Tokenize another text</a>
+</body>
+</html>
