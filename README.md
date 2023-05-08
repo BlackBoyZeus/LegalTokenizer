@@ -14,3 +14,9 @@ The text within the quotation marks would be identified as a legal-specific clau
 "Confidential Information" and "Disclosing Party" would be identified as legal-specific terms.
 "third party" would be identified as a legal-specific term.
 Overall, this hypothetical tokenizer would be designed to accurately identify legal-specific language patterns, formatting conventions, and terms in order to accurately tokenize legal contracts.
+To run this web application, we can save the code to a file called app.py and run it from the command line:
+$ export FLASK_APP=app.py
+$ export FLASK_ENV=development
+$ flask run
+B
+
