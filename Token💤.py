@@ -1,3 +1,9 @@
+#In this example, we define a LegalTokenizer class with an __init__ method that sets up the legal-specific patterns and their associated token types. We then define a tokenize method that takes in a text parameter and returns a list of tuples representing the identified tokens and their token types.
+
+#The tokenize method iterates over each pattern and uses the findall method from the re module to identify all matches of that pattern in the input text. It then appends each match to the tokens list with its associated token type.
+
+#This is a simple example, and a real-world tokenizer for legal contracts would likely be much more complex. However, this should give you an idea of how a domain-specific tokenizer might be implemented in code.
+
 import re
 
 class LegalTokenizer:
